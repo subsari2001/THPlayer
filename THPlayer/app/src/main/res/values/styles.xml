@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--bu kod transparan için <item name="android:windowActionBarOverlay">true</item>
+      -->
+
+    <style name="customApplicationTheme" parent="@android:style/Theme.AppCompat.Light.DarkActionBar">
+    <item  name="android:actionBarStyle">@style/mainActionBar</item>
+    <item  name="actionBarStyle">@style/mainActionBar</item>
+    </style>
+    <style name="mainActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="background">@drawable/actionbar_background</item>
+    </style>
+</resources>
